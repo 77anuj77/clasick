@@ -1,0 +1,15 @@
+# .DS_Store
+.DS_Store
+**/.DS_Store
+
+# Vercel
+.vercel
+
+# Local tooling
+node_modules/
+npm-debug.log*
+*.log
+
+# Editor
+.vscode/
+.idea/
