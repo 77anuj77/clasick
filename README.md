@@ -21,7 +21,6 @@ A static export of the Cloudmorphic design system, extended with a seven-chapter
 ## Structure
 
 ```
-index.html                 root entry (redirects to the landing page)
 pages/
   landing.html             the seven-chapter landing page
   landing-classic.html     the original exported page, kept for reference
@@ -41,13 +40,13 @@ vercel.json                static hosting config
 
 ## Run locally
 
-Any static file server works. For clean routes, serve the folder root:
+Any static file server works. Serve the folder root:
 
 ```bash
 python3 -m http.server 3000
 ```
 
-Then open <http://localhost:3000/>.
+Then open <http://localhost:3000/pages/landing.html>. On Vercel the same page is served at `/` by the rewrite in `vercel.json`.
 
 ## Deploy
 
